@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hiragana Practice</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    <body>
+        <header class="container">
+            <div class="row">
+                <h1 class="col-sm-4">Hiragana Practice</h1>
+                <nav class="col-sm-8" text-right>
+                    <p><a href="index.html">Home</a></p>
+                    <p><a href="hiragana.html">Practice</a></p>
+                    <p><a href="contact.html">Contact</a></p>
+                </nav>
+            </div>
+        </header>
+        <section class="jumbotron bghir">
+            <div class="container">
+                <div class="row text-center t-st">
+                    <h2>Hiragana</h2>
+                    <h3>Interactive Hiragana practice.</h3>
+                </div>
+            </div>
+        </section>
+        <div class="device well">
+            <table>
+                <tr>
+                    <form id="hir-nil">
+                        <td><input type="checkbox" name="selectAll-nil" value="all-nil">&nbsp;All<br/><p class="unico">&#x2205;</p></td>
+                        <td><input type="checkbox" name="hiragana-a" value="a">&nbsp;a<br/><p class="unico">&#x3042;</p></td>
+                        <td><input type="checkbox" name="hiragana-i" value="i">&nbsp;i<br/><p class="unico">&#x3044;</p></td>
+                        <td><input type="checkbox" name="hiragana-u" value="u">&nbsp;u<br/><p class="unico">&#x3046;</p></td>
+                        <td><input type="checkbox" name="hiragana-e" value="e">&nbsp;e<br/><p class="unico">&#x3048;</p></td>
+                        <td><input type="checkbox" name="hiragana-o" value="o">&nbsp;o<br/><p class="unico">&#x304A;</p></td>
+                    </form>
+                </tr>
+                <tr>
+                    <form id="hir-k">
+                        <td><input type="checkbox" name="selectAll-k" value="all-k">&nbsp;All<br/><p class="unico">k</p></td>
+                        <td><input type="checkbox" name="hiragana-ka" value="ka">&nbsp;ka<br/><p class="unico">&#x304B;</p></td>
+                        <td><input type="checkbox" name="hiragana-ki" value="ki">&nbsp;ki<br/><p class="unico">&#x304D;</p></td>
+                        <td><input type="checkbox" name="hiragana-ku" value="ku">&nbsp;ku<br/><p class="unico">&#x304F;</p></td>
+                        <td><input type="checkbox" name="hiragana-ke" value="ke">&nbsp;ke<br/><p class="unico">&#x3051;</p></td>
+                        <td><input type="checkbox" name="hiragana-ko" value="ko">&nbsp;ko<br/><p class="unico">&#x3053;</p></td>
+                        <td><input type="checkbox" name="hiragana-kya" value="kya">&nbsp;kya<br/><p class="unico">&#x304D;&#x3083;</p></td>
+                        <td><input type="checkbox" name="hiragana-kyu" value="kyu">&nbsp;kyu<br/><p class="unico">&#x304D;&#x3085;</p></td>
+                        <td><input type="checkbox" name="hiragana-kyo" value="kyo">&nbsp;kyo<br/><p class="unico">&#x304D;&#x3087;</p></td>
+                    </form>
+                </tr>
+                <tr>
+                    <form id="hir-s">
+                        <td><input type="checkbox" name="selectAll-s" value="all-s">&nbsp;All<br/><p class="unico">s</p></td>
+                        <td><input type="checkbox" name="hiragana-sa" value="sa">&nbsp;sa<br/><p class="unico">&#x3055;</p></td>
+                        <td><input type="checkbox" name="hiragana-shi" value="shi">&nbsp;shi<br/><p class="unico">&#x3057;</p></td>
+                        <td><input type="checkbox" name="hiragana-su" value="su">&nbsp;su<br/><p class="unico">&#x3059;</p></td>
+                        <td><input type="checkbox" name="hiragana-se" value="se">&nbsp;se<br/><p class="unico">&#x305B;</p></td>
+                        <td><input type="checkbox" name="hiragana-so" value="so">&nbsp;so<br/><p class="unico">&#x305D;</p></td>
+                        <td><input type="checkbox" name="hiragana-sha" value="sha">&nbsp;sha<br/><p class="unico">&#x3057;&#x3083;</p></td>
+                        <td><input type="checkbox" name="hiragana-shu" value="shu">&nbsp;shu<br/><p class="unico">&#x3057;&#x3085;</p></td>
+                        <td><input type="checkbox" name="hiragana-sho" value="sho">&nbsp;sho<br/><p class="unico">&#x3057;&#x3087;</p></td>
+                    </form>
+                </tr>
+                <tr>
+                    <form id="hir-t">
+                        <td><input type="checkbox" name="selectAll-t" value="all-t">&nbsp;All<br/><p class="unico">t</p></td>
+                        <td><input type="checkbox" name="hiragana-ta" value="ta">&nbsp;ta<br/><p class="unico">&#x305F;</p></td>
+                        <td><input type="checkbox" name="hiragana-chi" value="chi">&nbsp;chi<br/><p class="unico">&#x3061;</p></td>
+                        <td><input type="checkbox" name="hiragana-tsu" value="tsu">&nbsp;tsu<br/><p class="unico">&#x3064;</p></td>
+                        <td><input type="checkbox" name="hiragana-te" value="te">&nbsp;te<br/><p class="unico">&#x3066;</p></td>
+                        <td><input type="checkbox" name="hiragana-to" value="to">&nbsp;to<br/><p class="unico">&#x3068;</p></td>
+                        <td><input type="checkbox" name="hiragana-cha" value="cha">&nbsp;cha<br/><p class="unico">&#x3061;&#x3083;</p></td>
+                        <td><input type="checkbox" name="hiragana-chu" value="chu">&nbsp;chu<br/><p class="unico">&#x3061;&#x3085;</p></td>
+                        <td><input type="checkbox" name="hiragana-cho" value="cho">&nbsp;cho<br/><p class="unico">&#x3061;&#x3087;</p></td>
+                    </form>
+                </tr>
+                <tr>
+                    <form id="hir-n">
+                        <td><input type="checkbox" name="selectAll-n" value="all-n">&nbsp;All<br/><p class="unico">n</p></td>
+                        <td><input type="checkbox" name="hiragana-na" value="na">&nbsp;na<br/><p class="unico">&#x306A;</p></td>
+                        <td><input type="checkbox" name="hiragana-ni" value="ni">&nbsp;ni<br/><p class="unico">&#x306B;</p></td>
+                        <td><input type="checkbox" name="hiragana-nu" value="nu">&nbsp;nu<br/><p class="unico">&#x306C;</p></td>
+                        <td><input type="checkbox" name="hiragana-ne" value="ne">&nbsp;ne<br/><p class="unico">&#x306D;</p></td>
+                        <td><input type="checkbox" name="hiragana-no" value="no">&nbsp;no<br/><p class="unico">&#x306E;</p></td>
+                        <td><input type="checkbox" name="hiragana-nya" value="nya">&nbsp;nya<br/><p class="unico">&#x306B;&#x3083;</p></td>
+                        <td><input type="checkbox" name="hiragana-nyu" value="nyu">&nbsp;nyu<br/><p class="unico">&#x306B;&#x3085;</p></td>
+                        <td><input type="checkbox" name="hiragana-nyo" value="nyo">&nbsp;nyo<br/><p class="unico">&#x306B;&#x3087;</p></td>
+                    </form>
+                </tr>
+                <tr>
+                    <form id="hir-h">
+                        <td><input type="checkbox" name="selectAll-h" value="all-h">&nbsp;All<br/><p class="unico">h</p></td>
+                        <td><input type="checkbox" name="hiragana-ha" value="ha">&nbsp;ha<br/><p class="unico">&#x306F;</p></td>
+                        <td><input type="checkbox" name="hiragana-hi" value="hi">&nbsp;hi<br/><p class="unico">&#x3072;</p></td>
+                        <td><input type="checkbox" name="hiragana-hu" value="hu">&nbsp;hu<br/><p class="unico">&#x3075;</p></td>
+                        <td><input type="checkbox" name="hiragana-he" value="he">&nbsp;he<br/><p class="unico">&#x3078;</p></td>
+                        <td><input type="checkbox" name="hiragana-ho" value="ho">&nbsp;ho<br/><p class="unico">&#x307B;</p></td>
+                        <td><input type="checkbox" name="hiragana-hya" value="hya">&nbsp;hya<br/><p class="unico">&#x3072;&#x3083;</p></td>
+                        <td><input type="checkbox" name="hiragana-hyu" value="hyu">&nbsp;hyu<br/><p class="unico">&#x3072;&#x3085;</p></td>
+                        <td><input type="checkbox" name="hiragana-hyo" value="hyo">&nbsp;hyo<br/><p class="unico">&#x3072;&#x3087;</p></td>
+                    </form>
+                </tr>
+                <tr>
+                    <form id="hir-m">
+                        <td><input type="checkbox" name="selectAll-m" value="all-m">&nbsp;All<br/><p class="unico">m</p></td>
+                        <td><input type="checkbox" name="hiragana-ma" value="ma">&nbsp;ma<br/><p class="unico">&#x307E;</p></td>
+                        <td><input type="checkbox" name="hiragana-mi" value="mi">&nbsp;mi<br/><p class="unico">&#x307F;</p></td>
+                        <td><input type="checkbox" name="hiragana-mu" value="mu">&nbsp;mu<br/><p class="unico">&#x3080;</p></td>
+                        <td><input type="checkbox" name="hiragana-me" value="me">&nbsp;me<br/><p class="unico">&#x3081;</p></td>
+                        <td><input type="checkbox" name="hiragana-mo" value="mo">&nbsp;mo<br/><p class="unico">&#x3082;</p></td>
+                        <td><input type="checkbox" name="hiragana-mya" value="mya">&nbsp;mya<br/><p class="unico">&#x307F;&#x3083;</p></td>
+                        <td><input type="checkbox" name="hiragana-myu" value="myu">&nbsp;myu<br/><p class="unico">&#x307F;&#x3085;</p></td>
+                        <td><input type="checkbox" name="hiragana-myo" value="myo">&nbsp;myo<br/><p class="unico">&#x307F;&#x3087;</p></td>
+                    </form>
+                </tr>
+                <tr>
+                    <form id="hir-y">
+                        <td><input type="checkbox" name="selectAll-y" value="all-y">&nbsp;All<br/><p class="unico">y</p></td>
+                        <td><input type="checkbox" name="hiragana-ya" value="ya">&nbsp;ya<br/><p class="unico">&#x3084;</p></td>
+                        <td></td>
+                        <td><input type="checkbox" name="hiragana-yu" value="yu">&nbsp;yu<br/><p class="unico">&#x3086;</p></td>
+                        <td></td>
+                        <td><input type="checkbox" name="hiragana-yo" value="yo">&nbsp;yo<br/><p class="unico">&#x3088;</p></td>
+                    </form>
+                </tr>
+                <tr>
+                    <form id="hir-r">
+                        <td><input type="checkbox" name="selectAll-r" value="all-r">&nbsp;All<br/><p class="unico">r</p></td>
+                        <td><input type="checkbox" name="hiragana-ra" value="ra">&nbsp;ra<br/><p class="unico">&#x3089;</p></td>
+                        <td><input type="checkbox" name="hiragana-ri" value="ri">&nbsp;ri<br/><p class="unico">&#x308A;</p></td>
+                        <td><input type="checkbox" name="hiragana-ru" value="ru">&nbsp;ru<br/><p class="unico">&#x308B;</p></td>
+                        <td><input type="checkbox" name="hiragana-re" value="re">&nbsp;re<br/><p class="unico">&#x308C;</p></td>
+                        <td><input type="checkbox" name="hiragana-ro" value="ro">&nbsp;ro<br/><p class="unico">&#x308D;</p></td>
+                    </form>
+                </tr>
+                <tr>
+                    <form id="hir-w">
+                        <td><input type="checkbox" name="selectAll-w" value="all-w">&nbsp;All<br/><p class="unico">w</p></td>
+                        <td><input type="checkbox" name="hiragana-wa" value="wa">&nbsp;wa<br/><p class="unico">&#x308F;</p></td>
+                        <td><input type="checkbox" name="hiragana-wi" value="wi">&nbsp;wi<br/><p class="unico">&#x3090;</p></td>
+                        <td></td>
+                        <td><input type="checkbox" name="hiragana-we" value="we">&nbsp;we<br/><p class="unico">&#x3091;</p></td>
+                        <td><input type="checkbox" name="hiragana-wo" value="wo">&nbsp;wo<br/><p class="unico">&#x3092;</p></td>
+                    </form>
+                </tr>
+                <tr>
+                    <form id="hir-g">
+                        <td><input type="checkbox" name="selectAll-g" value="all-g">&nbsp;All<br/><p class="unico">g</p></td>
+                        <td><input type="checkbox" name="hiragana-ga" value="ga">&nbsp;ga<br/><p class="unico">&#x304C;</p></td>
+                        <td><input type="checkbox" name="hiragana-gi" value="gi">&nbsp;gi<br/><p class="unico">&#x304E;</p></td>
+                        <td><input type="checkbox" name="hiragana-gu" value="gu">&nbsp;gu<br/><p class="unico">&#x3050;</p></td>
+                        <td><input type="checkbox" name="hiragana-ge" value="ge">&nbsp;ge<br/><p class="unico">&#x3052;</p></td>
+                        <td><input type="checkbox" name="hiragana-go" value="go">&nbsp;go<br/><p class="unico">&#x3054;</p></td>
+                    </form>
+                </tr>
+                <tr>
+                    <form id="hir-z">
+                        <td><input type="checkbox" name="selectAll-z" value="all-z">&nbsp;All<br/><p class="unico">z</p></td>
+                        <td><input type="checkbox" name="hiragana-za" value="za">&nbsp;za<br/><p class="unico">&#x3056;</p></td>
+                        <td><input type="checkbox" name="hiragana-zi" value="zi">&nbsp;zi<br/><p class="unico">&#x3058;</p></td>
+                        <td><input type="checkbox" name="hiragana-zu" value="zu">&nbsp;zu<br/><p class="unico">&#x305A;</p></td>
+                        <td><input type="checkbox" name="hiragana-ze" value="ze">&nbsp;ze<br/><p class="unico">&#x305C;</p></td>
+                        <td><input type="checkbox" name="hiragana-zo" value="zo">&nbsp;zo<br/><p class="unico">&#x305E;</p></td>
+                    </form>
+                </tr>
+                <tr>
+                    <form id="hir-d">
+                        <td><input type="checkbox" name="selectAll-d" value="all-d">&nbsp;All<br/><p class="unico">d</p></td>
+                        <td><input type="checkbox" name="hiragana-da" value="da">&nbsp;da<br/><p class="unico">&#x3060;</p></td>
+                        <td><input type="checkbox" name="hiragana-di" value="di">&nbsp;di<br/><p class="unico">&#x3062;</p></td>
+                        <td><input type="checkbox" name="hiragana-du" value="du">&nbsp;du<br/><p class="unico">&#x3065;</p></td>
+                        <td><input type="checkbox" name="hiragana-de" value="de">&nbsp;de<br/><p class="unico">&#x3067;</p></td>
+                        <td><input type="checkbox" name="hiragana-do" value="do">&nbsp;do<br/><p class="unico">&#x3069;</p></td>
+                    </form>
+                </tr>
+                <tr>
+                    <form id="hir-b">
+                        <td><input type="checkbox" name="selectAll-b" value="all-b">&nbsp;All<br/><p class="unico">b</p></td>
+                        <td><input type="checkbox" name="hiragana-ba" value="ba">&nbsp;ba<br/><p class="unico">&#x3070;</p></td>
+                        <td><input type="checkbox" name="hiragana-bi" value="bi">&nbsp;bi<br/><p class="unico">&#x3073;</p></td>
+                        <td><input type="checkbox" name="hiragana-bu" value="bu">&nbsp;bu<br/><p class="unico">&#x3076;</p></td>
+                        <td><input type="checkbox" name="hiragana-be" value="be">&nbsp;be<br/><p class="unico">&#x3079;</p></td>
+                        <td><input type="checkbox" name="hiragana-bo" value="bo">&nbsp;bo<br/><p class="unico">&#x307C;</p></td>
+                    </form>
+                </tr>
+                <tr>
+                    <form id="hir-p">
+                        <td><input type="checkbox" name="selectAll-p" value="all-p">&nbsp;All<br/><p class="unico">p</p></td>
+                        <td><input type="checkbox" name="hiragana-pa" value="pa">&nbsp;pa<br/><p class="unico">&#x3071;</p></td>
+                        <td><input type="checkbox" name="hiragana-pi" value="pi">&nbsp;pi<br/><p class="unico">&#x3074;</p></td>
+                        <td><input type="checkbox" name="hiragana-pu" value="pu">&nbsp;pu<br/><p class="unico">&#x3077;</p></td>
+                        <td><input type="checkbox" name="hiragana-pe" value="pe">&nbsp;pe<br/><p class="unico">&#x307A;</p></td>
+                        <td><input type="checkbox" name="hiragana-po" value="po">&nbsp;po<br/><p class="unico">&#x307D;</p></td>
+                    </form>
+                </tr>
+                <tr>
+                    <form id="hir-v">
+                        <td><input type="checkbox" name="selectAll-v" value="all-v">&nbsp;All<br/><p class="unico">v</p></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="checkbox" name="hiragana-vu" value="vu">&nbsp;vu<br/><p class="unico">&#x3094;</p></td>
+                        <td></td>
+                        <td></td>
+                    </form>
+                </tr>
+            </table>
+        </div>
+        <footer>
+            <p>&copy 2017 Cameron Smith</p>
+        </footer>
+    </body>
+</html>

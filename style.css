@@ -1,0 +1,104 @@
+* {
+    font-family: 'Exo', sans-serif;
+    color: #cc0000;
+}
+a:link, a:visited, a:hover, a:active {
+     color: #cc0000;
+}
+.gstart-btn {
+    font-size: 1.5em;
+    margin-top: 2em;
+    font-family: 'Exo', sans-serif;
+}
+
+.gstart-btn a {
+    cursor: pointer;
+    padding: 8px 18px;
+    position: relative;
+    color: #FFFFFF;
+    background-image: linear-gradient(#cc0000, #ff6666)
+
+}
+.gstart-btn a:link {
+    text-decoration: none;
+}
+.gstart-btn a:active {
+    top: 4px;
+    text-decoration: none;
+}
+header .row {
+    display: flex;
+    align-items: center;
+}
+header nav {
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Exo', sans-serif;
+}
+header nav a:link {
+    text-decoration: none;
+}
+header nav a:hover {
+}
+header p {
+    padding: 0 20px;
+    margin: 0;
+}
+.title {
+    margin: 10px;
+}
+.sub-title {
+    margin: 10px;
+}
+.jumbotron {
+    display: flex;
+    background-size: cover;
+    height: 500px;
+    align-items: center;
+}
+.jumbotron.bgind {
+    background-image: url(images/backgrounds/bg0001.png);
+    background-attachment: fixed;
+}
+.jumbotron.bghir {
+    background-image: url(images/backgrounds/bg0002.png);
+    background-attachment: fixed;
+}
+.jumbotron.bgcon {
+    background-image: url(images/backgrounds/bg0003.png);
+    background-attachment: fixed;
+}
+.jumbotron h2 {
+    font-size; 20px;
+}
+.jumbotron h2, h3 {
+    color: #FFFFFF;
+}
+.t-st {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 15px;
+    margin: auto;
+    max-width: 600px;
+}
+footer {
+    text-align: center;
+}
+.device {
+    margin: 150px;
+    min-width: 400px;
+}
+.device table {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    min-width: 400px;
+}
+.device table td {
+    padding: 10px;
+}
+.unico {
+    font-size: 2em;
+}
+#stuff {
+    height: 800px;
+}

@@ -1,0 +1,1 @@
+Shai won the contest 22:58 12/24/16.
