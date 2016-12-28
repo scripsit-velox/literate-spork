@@ -7,7 +7,7 @@
         <link rel="stylesheet" type="text/css" href="style.css">
         <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-        <script type="text/javascript" src="script.js"></script>
+        <script src="script.js"></script>
     </head>
     <body>
         <header class="container">
@@ -32,12 +32,12 @@
             <table>
                 <tr>
                     <form id="hir-nil">
-                        <td><input type="checkbox" name="selectAll-nil" value="all-nil">&nbsp;All<br/><p class="unico">&#x2205;</p></td>
-                        <td><input type="checkbox" name="hiragana-a" value="a">&nbsp;a<br/><p class="unico">&#x3042;</p></td>
-                        <td><input type="checkbox" name="hiragana-i" value="i">&nbsp;i<br/><p class="unico">&#x3044;</p></td>
-                        <td><input type="checkbox" name="hiragana-u" value="u">&nbsp;u<br/><p class="unico">&#x3046;</p></td>
-                        <td><input type="checkbox" name="hiragana-e" value="e">&nbsp;e<br/><p class="unico">&#x3048;</p></td>
-                        <td><input type="checkbox" name="hiragana-o" value="o">&nbsp;o<br/><p class="unico">&#x304A;</p></td>
+                        <td><input type="checkbox" class="selall-nil" name="selectAll-nil" value="all-nil">&nbsp;All<br/><p class="unico">&#x2205;</p></td>
+                        <td><input type="checkbox" class="nil" name="hiragana-a" value="a">&nbsp;a<br/><p class="unico">&#x3042;</p></td>
+                        <td><input type="checkbox" class="nil" name="hiragana-i" value="i">&nbsp;i<br/><p class="unico">&#x3044;</p></td>
+                        <td><input type="checkbox" class="nil" name="hiragana-u" value="u">&nbsp;u<br/><p class="unico">&#x3046;</p></td>
+                        <td><input type="checkbox" class="nil" name="hiragana-e" value="e">&nbsp;e<br/><p class="unico">&#x3048;</p></td>
+                        <td><input type="checkbox" class="nil" name="hiragana-o" value="o">&nbsp;o<br/><p class="unico">&#x304A;</p></td>
                     </form>
                 </tr>
                 <tr>
@@ -136,6 +136,9 @@
                         <td><input type="checkbox" name="hiragana-ru" value="ru">&nbsp;ru<br/><p class="unico">&#x308B;</p></td>
                         <td><input type="checkbox" name="hiragana-re" value="re">&nbsp;re<br/><p class="unico">&#x308C;</p></td>
                         <td><input type="checkbox" name="hiragana-ro" value="ro">&nbsp;ro<br/><p class="unico">&#x308D;</p></td>
+                        <td><input type="checkbox" name="hiragana-rya" value="rya">&nbsp;rya<br/><p class="unico">&#x308A;&#x3083;</p></td>
+                        <td><input type="checkbox" name="hiragana-ryu" value="ryu">&nbsp;ryu<br/><p class="unico">&#x308A;&#x3085;</p></td>
+                        <td><input type="checkbox" name="hiragana-ryo" value="ryo">&nbsp;ryo<br/><p class="unico">&#x308A;&#x3087;</p></td>
                     </form>
                 </tr>
                 <tr>
@@ -156,26 +159,35 @@
                         <td><input type="checkbox" name="hiragana-gu" value="gu">&nbsp;gu<br/><p class="unico">&#x3050;</p></td>
                         <td><input type="checkbox" name="hiragana-ge" value="ge">&nbsp;ge<br/><p class="unico">&#x3052;</p></td>
                         <td><input type="checkbox" name="hiragana-go" value="go">&nbsp;go<br/><p class="unico">&#x3054;</p></td>
+                        <td><input type="checkbox" name="hiragana-gya" value="gya">&nbsp;gya<br/><p class="unico">&#x304E;&#x3083;</p></td>
+                        <td><input type="checkbox" name="hiragana-gyu" value="gyu">&nbsp;gyu<br/><p class="unico">&#x304E;&#x3085;</p></td>
+                        <td><input type="checkbox" name="hiragana-gyo" value="gyo">&nbsp;gyo<br/><p class="unico">&#x304E;&#x3087;</p></td>
                     </form>
                 </tr>
                 <tr>
                     <form id="hir-z">
                         <td><input type="checkbox" name="selectAll-z" value="all-z">&nbsp;All<br/><p class="unico">z</p></td>
                         <td><input type="checkbox" name="hiragana-za" value="za">&nbsp;za<br/><p class="unico">&#x3056;</p></td>
-                        <td><input type="checkbox" name="hiragana-zi" value="zi">&nbsp;zi<br/><p class="unico">&#x3058;</p></td>
-                        <td><input type="checkbox" name="hiragana-zu" value="zu">&nbsp;zu<br/><p class="unico">&#x305A;</p></td>
+                        <td><input type="checkbox" name="hiragana-z-ji" value="z-ji">&nbsp;(z)ji<br/><p class="unico">&#x3058;</p></td>
+                        <td><input type="checkbox" name="hiragana-z-zu" value="z-zu">&nbsp;(z)zu<br/><p class="unico">&#x305A;</p></td>
                         <td><input type="checkbox" name="hiragana-ze" value="ze">&nbsp;ze<br/><p class="unico">&#x305C;</p></td>
                         <td><input type="checkbox" name="hiragana-zo" value="zo">&nbsp;zo<br/><p class="unico">&#x305E;</p></td>
+                        <td><input type="checkbox" name="hiragana-z-ja" value="z-ja">&nbsp;(z)ja<br/><p class="unico">&#x3058;&#x3083;</p></td>
+                        <td><input type="checkbox" name="hiragana-z-ju" value="z-ju">&nbsp;(z)ju<br/><p class="unico">&#x3058;&#x3085;</p></td>
+                        <td><input type="checkbox" name="hiragana-z-jo" value="z-jo">&nbsp;(z)jo<br/><p class="unico">&#x3058;&#x3087;</p></td>
                     </form>
                 </tr>
                 <tr>
                     <form id="hir-d">
                         <td><input type="checkbox" name="selectAll-d" value="all-d">&nbsp;All<br/><p class="unico">d</p></td>
                         <td><input type="checkbox" name="hiragana-da" value="da">&nbsp;da<br/><p class="unico">&#x3060;</p></td>
-                        <td><input type="checkbox" name="hiragana-di" value="di">&nbsp;di<br/><p class="unico">&#x3062;</p></td>
-                        <td><input type="checkbox" name="hiragana-du" value="du">&nbsp;du<br/><p class="unico">&#x3065;</p></td>
+                        <td><input type="checkbox" name="hiragana-d=ji" value="d=ji">&nbsp;(d)ji<br/><p class="unico">&#x3062;</p></td>
+                        <td><input type="checkbox" name="hiragana-zu-d" value="zu-d">&nbsp;zu(d)<br/><p class="unico">&#x3065;</p></td>
                         <td><input type="checkbox" name="hiragana-de" value="de">&nbsp;de<br/><p class="unico">&#x3067;</p></td>
                         <td><input type="checkbox" name="hiragana-do" value="do">&nbsp;do<br/><p class="unico">&#x3069;</p></td>
+                        <td><input type="checkbox" name="hiragana-d-ja" value="d-ja">&nbsp;(d)ja<br/><p class="unico">&#x3062;&#x3083;</p></td>
+                        <td><input type="checkbox" name="hiragana-d-ju" value="d-ju">&nbsp;(d)ju<br/><p class="unico">&#x3062;&#x3085;</p></td>
+                        <td><input type="checkbox" name="hiragana-d-jo" value="d-jo">&nbsp;(d)jo<br/><p class="unico">&#x3062;&#x3087;</p></td>
                     </form>
                 </tr>
                 <tr>
@@ -186,6 +198,10 @@
                         <td><input type="checkbox" name="hiragana-bu" value="bu">&nbsp;bu<br/><p class="unico">&#x3076;</p></td>
                         <td><input type="checkbox" name="hiragana-be" value="be">&nbsp;be<br/><p class="unico">&#x3079;</p></td>
                         <td><input type="checkbox" name="hiragana-bo" value="bo">&nbsp;bo<br/><p class="unico">&#x307C;</p></td>
+                        <td><input type="checkbox" name="hiragana-bya" value="bya">&nbsp;bya<br/><p class="unico">&#x3073;&#x3083;</p></td>
+                        <td><input type="checkbox" name="hiragana-byu" value="byu">&nbsp;byu<br/><p class="unico">&#x3073;&#x3085;</p></td>
+                        <td><input type="checkbox" name="hiragana-byo" value="byo">&nbsp;byo<br/><p class="unico">&#x3073;&#x3087;</p></td>
+                        
                     </form>
                 </tr>
                 <tr>
@@ -195,7 +211,9 @@
                         <td><input type="checkbox" name="hiragana-pi" value="pi">&nbsp;pi<br/><p class="unico">&#x3074;</p></td>
                         <td><input type="checkbox" name="hiragana-pu" value="pu">&nbsp;pu<br/><p class="unico">&#x3077;</p></td>
                         <td><input type="checkbox" name="hiragana-pe" value="pe">&nbsp;pe<br/><p class="unico">&#x307A;</p></td>
-                        <td><input type="checkbox" name="hiragana-po" value="po">&nbsp;po<br/><p class="unico">&#x307D;</p></td>
+                        <td><input type="checkbox" name="hiragana-po" value="po">&nbsp;po<br/><p class="unico">&#x307D;</p></td><td><input type="checkbox" name="hiragana-pya" value="pya">&nbsp;pya<br/><p class="unico">&#x3074;&#x3083;</p></td>
+                        <td><input type="checkbox" name="hiragana-pyu" value="pyu">&nbsp;pyu<br/><p class="unico">&#x3074;&#x3085;</p></td>
+                        <td><input type="checkbox" name="hiragana-pyo" value="pyo">&nbsp;pyo<br/><p class="unico">&#x3074;&#x3087;</p></td>
                     </form>
                 </tr>
                 <tr>
