@@ -84,7 +84,7 @@ footer {
     text-align: center;
 }
 .device {
-    margin: 150px;
+    margin: 50px 150px;
     min-width: 400px;
 }
 .device table {
@@ -101,4 +101,20 @@ footer {
 }
 #stuff {
     height: 800px;
+}
+.forms {
+    min-width: 600px;
+    max-width: 800px;
+    margin: 20px auto;
+}
+.difficulty {
+    max-width: 400px;
+}
+.content {
+    max-width: 150px;
+}
+#submitform {
+    display: block;
+    margin: 15px auto;
+    text-align: center;
 }
