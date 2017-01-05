@@ -1,8 +1,9 @@
 $(document).ready(function() {
-    $('.selall-nil').click(function() {
-        $('.nil-box').prop('checked', $(this).prop('checked'));
+    $('.selall').click(function() {
+        /*$('.nil-box').prop('checked', $(this).prop('checked'));*/
+        $(this).closest('tr').find(".kana-box").prop('checked', this.checked);
         });
-    $('.selall-k').click(function() {
+    /*$('.selall-k').click(function() {
         $('.k-box').prop('checked', $(this).prop('checked'));
         });
     $('.selall-s').click(function() {
@@ -46,8 +47,8 @@ $(document).ready(function() {
         });
     $('.selall-v').click(function() {
         $('.v-box').prop('checked', $(this).prop('checked'));
-        });
+        });*/
     $('.selevery').click(function() {
-        $('.kana-box').prop('checked', $(this).prop('checked'));
+        $('.').prop('checked', $(this).prop('checked'));
         });
 });
